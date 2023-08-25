@@ -1,8 +1,8 @@
 # Multiclass-Classification-Py-Template
 
-Dockerized ML model with train and predict APIs with a very basic preprocessing pipeline
+This is Dockerized ML multiclass classifier model with train and predict APIs with a very basic preprocessing pipeline and logistic regression model using python scripts. The purpose is to provide a simple-to-adapt template for creating a dockerized multiclass classifier model implementation.
 
-## This repository is a dockerized implementation of the re-usable multiclass classifier model.
+Users can update the proprocessing logic and model training logic in the Jupyter Notebooks and build the Docker image to create a containerized implementation of the model. The container can be used to run training and batch predictions.
 
 ## Project Structure
 
