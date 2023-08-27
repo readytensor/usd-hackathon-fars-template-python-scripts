@@ -4,6 +4,8 @@ FROM python:3.9.17-slim-bullseye as builder
 RUN apt-get -y update && apt-get install -y --no-install-recommends \
          ca-certificates \
          dos2unix \
+         gcc \               
+         python3-dev \       
     && rm -rf /var/lib/apt/lists/*
 
 COPY ./requirements/requirements.txt /opt/
